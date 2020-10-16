@@ -1,4 +1,4 @@
-module.exports = function howManyCamelCase(str){
+function howManyCamelCase(str){
     let char =''
     let compteur_mots = 0
     for (let i = 0; i < str.length; i++) {
