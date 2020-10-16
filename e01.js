@@ -1,8 +1,8 @@
-module.exports = function howManyCamelCase(string){
+module.exports = function howManyCamelCase(str){
     let char =''
     let compteur_mots = 0
-    for (let i = 0; i < string.length; i++) {
-        char = string.charAt(i);
+    for (let i = 0; i < str.length; i++) {
+        char = str.charAt(i);
         if (char == char.toUpperCase()) {
             compteur_mots++
         }
